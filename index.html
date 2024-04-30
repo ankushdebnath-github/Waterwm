@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ags.css">
+    <title>waterwaste</title>
+    <style>
+        /* Additional CSS for video background */
+        .video-background {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        .video-background video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .video-content {
+            position: relative;
+            z-index: 1;
+            color: white; /* Adjust text color for visibility */
+        }
+
+        /* Additional CSS for content overlay */
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5); /* Adjust opacity as needed */
+        }
+
+        .container {
+            position: relative;
+            z-index: 2;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <h1>WasterWasteManagement</h1>
+            <p>Empowering Conscious </p>
+        </div>
+        <nav>
+            <a href="Login And Register Page(HTML).html" id="login">Log in</a>
+            <a href="Registration Page.html" id="sign">Sign up</a>
+        </nav>
+    </header>
+
+    <section class="welcome">
+        <div class="video-background">
+            <video autoplay muted loop>
+                <source src="water.mp4" type="video/mp4"> <!-- Replace with your video file -->
+                Your browser does not support the video tag.
+            </video>
+            <div class="overlay"></div>
+            <div class="video-content">
+                <div class="container">
+                    <div class="content">
+                        <h1>WaterWaste Management</h1>
+                        <p>"Water waste Management: Protecting lives and property through proactive planning and response strategies."</p>
+                        <a href="ankush.github.io-main/index.html" class="btn">Start Reading</a>
+                    </div>
+                    <div class="description">
+                        <h2>About Us</h2>
+                        <p>waterwaste management involves a range of strategies and actions aimed at reducing the impact of water on communities, infrastructure, and the environment. Effective water waste management is crucial for protecting lives and property, as well as minimizing the economic and social disruptions caused by  events.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="contact">
+            <h3>Contact Us</h3>
+        </div>
+        <div class="contact-items">
+            <nav>
+                <ul>
+                    <li><img src="instagram.png" alt="Instagram Logo"> Follow us on Instagram: @waterwaste</li>
+                    <li><img src="facebook.png" alt="Facebook Logo"> Follow us on Facebook: waterwaste</li>
+                    <li><img src="linkedin.png" alt="LinkedIn Logo"> Follow us on LinkedIn: waterwaste</li>
+                    <li><img src="email.png" alt="Email Logo"> Email Us at: contact@waterwaste.com</li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+</body>
+
+</html>
